@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        #c1 {
+            background-color: rebeccapurple;
+        }
+
+        #c2 {
+            background-color: red;
+        }
+
+        #c3 {
+            background-color: green;
+        }
+
+        .my-box {
+            height: 300px;
+            border: 1px solid black;
+        }
+
+        .main {
+            min-height: 230px;
+            background-color: #b2c3dc;
+        }
+
+        .sidebar {
+            min-height: 100px;
+            margin-bottom: 30px;
+            background-color: #86abd6;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <div class="row text-center">
+        <div class="col-6 col-md-8 col-sm-12" id="c1">1</div>
+        <div class="col-6 col-md-4 col-sm-12" id="c2">2</div>
+        <div class="col-4" id="c3">3</div>
+        <div class="col" id="c2">4</div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-12 col-sm-3 bg-success p-2">
+            1 of 4
+        </div>
+        <div class="col-6 col-sm-3 bg-primary p-2">
+            2 of 4
+        </div>
+        <div class="col-6 col-sm-3 bg-danger p-2 offset-md-4">
+            3 of 4
+        </div>
+        <div class="col-12 col-sm-3 bg-primary p-2">
+            4 of 4
+        </div>
+    </div>
+
+
+    <br>
+
+    <div
+        class="d-flex flex-row-reverse align-items-start align-items-md-end mb-3 justify-content-around justify-content-md-between my-box">
+        <div class="p-2 bg-danger">
+            1 of 3
+        </div>
+        <div class="p-2 bg-danger">
+            2 of 3
+        </div>
+        <div class="p-2 bg-danger">
+            3 of 3
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-sm-8">
+            <div class="main"></div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col-12">
+                <div class="sidebar"></div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="sidebar"></div>
+                </div>
+                <div class="col-6">
+                    <div class="sidebar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-sm-4 bg-danger">Creator</div>
+        <div class="col-sm-4 ms-sm-auto bg-primary">Creator</div>
+    </div>
+
+     <div class="row">
+        <div class="col-3 bg-danger">Creator</div>
+        <div class="col-3 ms-auto bg-primary">Creator</div>
+    </div>
+
+     <div class="row">
+        <div class="col-md-5 bg-danger">Creator</div>
+        <div class="col-md-5 ms-md-auto bg-primary">Creator</div>
+    </div>
+</body>
+
+</html>

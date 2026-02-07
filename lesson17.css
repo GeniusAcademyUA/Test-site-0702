@@ -1,0 +1,196 @@
+/*Header*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+   
+    
+}
+.gerb{
+    position: relative;
+    top: 15px;
+    height:45px;
+    width:45px;
+}
+.gradient{
+    background:radial-gradient(rgb(0, 225, 255) 15%, blue);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height:80px;
+    
+}
+
+.main{
+    display:flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 2px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(189, 187, 187);
+    width:100%;
+}
+.img1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-left: 5%; 
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;   
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+     flex: 2;
+     margin: 20px;
+     margin-top: 0px;
+}
+.center-element{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float:left;
+    margin-top:25px;
+    background-color: rgb(200, 205, 205);
+    width:100%;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-around;  
+}
+.img-center{
+    display:flex;
+    justify-content: center;
+    width:50%;
+    height:50%;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.center2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.center-button{
+    border-radius: 25px;
+    border:1px solid blue;
+    color: blue;
+    width:60px;
+    height: 40px;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-left: 40px;
+}
+.input{
+    border: 1px solid blue;
+    border-radius: 10px;
+    height:30px;
+    margin-bottom:10px;
+}
+textarea{
+    border: 1px solid blue;
+    border-radius: 10px;
+    height:100px;
+}
+.send-button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height:30px;
+    width: 100%;
+    margin-top:10px;
+}
+
+.img-socials{
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.ending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    background: linear-gradient(rgb(0, 225, 255) , blue 99%);
+}
+
+@media only  screen and (max-width: 1200px){
+   .main{
+    flex-wrap: wrap;
+    }
+.mail{
+    margin-left: 5px;
+
+}
+
+@media only  screen and (max-width: 1199px)   {
+.center-element {
+    flex-direction: column;
+    align-items: center;
+}
+
+.soc {
+    flex-direction: row;
+}
+ .main{
+    flex-wrap: wrap;
+    }
+.mail{
+    margin-left: 5px;
+}
+}
+
+@media only  screen and (max-width: 749px){
+.main {
+    flex-direction: column;
+}
+
+.center-element {
+    flex-direction: column;
+    align-items: center;
+}
+
+.soc {
+    flex-direction: row;
+}
+ .main{
+    flex-wrap: wrap;
+    }
+.mail{
+    margin-left: 5px;
+}
+}

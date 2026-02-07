@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.gerb {
+    position: relative;
+    top: 10px;
+    height:20px;
+    width: 15px;
+}
+
+.first-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 6pt;
+}
+
+.gradient {
+    background: radial-gradient(rgb(49, 136, 235) 25%, blue);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.img-left {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding-right: 10px;
+    margin-top: 20px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    margin: 0px 20px;
+    padding: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centr-element {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: left;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: rgb(202, 202, 202);
+}
+
+.img-centr {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.centr {
+    width: 60%
+}
+.left {
+    width: 18%;
+}
+
+.reverse {
+    display:flex;
+    flex-direction: row-reverse;
+}
+.img-socials {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
